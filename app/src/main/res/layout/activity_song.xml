@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Song">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Songs"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:id="@+id/song"
+                android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/song"
+                android:id="@+id/card"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:id="@+id/img"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/mx1"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="App ki najaro ne"
+                        android:id="@+id/text"
+                        android:layout_below="@+id/img"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_height="50dp"/>
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="100dp"
+                        android:layout_margin="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/text"
+
+                        android:text="Play" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/card"
+                android:id="@+id/card1"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:id="@+id/img1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/mx1"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="lagja gale"
+                        android:layout_below="@+id/img1"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:id="@+id/text1"
+                        android:layout_height="50dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_margin="20dp"
+                        android:layout_toRightOf="@+id/text1"
+                        android:id="@+id/button2"
+                        android:text="Play"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/card1"
+                android:id="@+id/card3"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:id="@+id/img3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/mx1"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="App ki najaro ne"
+                        android:id="@+id/text2"
+                        android:layout_below="@+id/img3"
+                        android:textSize="20dp"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_height="50dp"/>
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="100dp"
+                        android:layout_margin="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/text2"
+                        android:text="Play" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:layout_below="@+id/card3"
+                android:id="@+id/card4"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:id="@+id/img4"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/mx1"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:text="lagja gale"
+                        android:layout_below="@+id/img4"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:id="@+id/text4"
+                        android:layout_height="50dp"/>
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_margin="20dp"
+                        android:layout_toRightOf="@+id/text4"
+                        android:id="@+id/button4"
+                        android:text="Play"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+
